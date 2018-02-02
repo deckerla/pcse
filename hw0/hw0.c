@@ -132,6 +132,7 @@ int main()
 	printf("%d bytes used per array \n",bytes);
 	printf("############################################################ \n");
 	printf("Threshold Value is %g \n",t);
+	printf("Smoothing Constants a = %g, b = %g, c = %g \n",a,b,c);
 	printf("%d X elements below threshold \n",belowX);
 	printf("%d Y elements below threshold \n",belowY);
 	printf("Fraction of X elements below threshold is %g \n",fracX);
